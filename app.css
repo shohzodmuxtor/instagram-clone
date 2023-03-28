@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    position: relative;
+    margin-top: 50px;
+}
+
+.carousel-container {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+
+}
+
+.slide {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    user-select: none;
+    position: absolute;
+}
+
+.story-status {
+    display: inline-block;
+    text-align: center;
+}
+
+.story-status img {
+    width: 135px;
+    height: 135px;
+    margin-left: 15px;
+    user-select: none;
+    border-radius: 50%;
+    border: 4px solid rgb(219, 87, 64);
+    padding: 3px;
+}
+
+.buton1 {
+    left: 2px;
+    z-index: 2;
+}
+
+.buton2 {
+    right: 2px;
+    z-index: 2;
+    margin-left: -250px;
+}
+
+.buton2 img {
+    width: 20px;
+}
+
+.P {
+    margin: 30px;
+    margin-left: 150px;
+}
+
+.P1 {
+    margin-left: 100px;
+    color: #385185
+}
+
+
+
+/* section */
+.imglar {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.imglar img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.imglar2 {
+    height: 700px;
+}
+
+.img {
+    width: 475px;
+    height: 530px;
+    margin: 0 auto;
+    box-shadow: 4px 4px 4px 4px;
+}
+
+.iconclar {
+    display: flex;
+    align-items: center;
+    margin: 0 3px;
+}
+
+.row1 {
+    display: none;
+    margin: 0 auto;
+}
+
+.collar1 {
+    margin: 0 auto;
+}
+
+.instagram {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
